@@ -32,12 +32,18 @@ plugins:
 
 # A list of the pages to display in the navigation bar
 header_pages:
-  - first.md
-  - second.md
-  - third.md
+  - _pages/first.md
+  - _pages/second.md
+  - _pages/third.md
+
+include:
+  - _pages
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
+
+
 exclude:
   - Gemfile
   - Gemfile.lock
